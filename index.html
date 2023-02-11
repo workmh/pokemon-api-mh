@@ -1,0 +1,42 @@
+do<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon API</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://cdn.iconscout.com/icon/free/png-256/pokemon-7-282136.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="/pokemon-api/">
+                    <h1 class="logo__title">POKEMONS: Lu + Tato</h1>
+                </a>
+                <img class="logo__img" src="./src/assets/img/icon-pokemon.png" alt="icono de pokebola">
+            </div>
+            <input id="search" class="navbar__input" type="text" placeholder="search pokemon">
+            <button class="button" type="button" id="generate-pokemon">
+                Aleatory Pokemon
+            </button>
+            <ul class="menu">
+                <li class="menu__item"><a href="/pokemon-api/">Pokemons</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="cards-container">
+        </section>
+        <section class="buttons-container">
+        </section>
+    </main>
+    <footer>
+        <p>Pokemones para <a href="https://marcelohumerez.com"> Lupi y Tato 😊</a></p>
+    </footer>
+    <script type="module" src="./src/main.js"></script>
+</body>
+</html>

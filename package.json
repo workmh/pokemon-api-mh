@@ -1,0 +1,33 @@
+{
+  "name": "pokemon-api",
+  "version": "1.0.0",
+  "description": "API of consume Pokemon API",
+  "main": "./index.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/julian1david/pokemon-api"
+  },
+  "keywords": [
+    "API",
+    "Node",
+    "JS",
+    "HTML",
+    "CSS",
+    "SASS",
+    "VITE"
+  ],
+  "author": "@julian1f",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "sass": "^1.52.3",
+    "vite": "^2.9.15"
+  },
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
